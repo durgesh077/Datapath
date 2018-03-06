@@ -26,6 +26,7 @@ The circuit made is capable  of handling 8 instructions – “add”, “adi”
 | mvi | 111000 | mov ri,XXXX | ri<-XXXX
 
 **31>=i,j,k>=0**
+
 **XXXX is any four digit hexadecimal value.**
 
 The 32-instruction register has following way of storing instruction:
