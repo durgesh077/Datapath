@@ -37,7 +37,7 @@ The 32-instruction register has following way of storing instruction:
 * I type
 
     | Opcode(6) | Rd(5) | Rs1(5) | Immediate(16) |
-    | --- | --- | --- |
+    | --- | --- | --- | --- |
     
 Where Rd is destination register , Rs1,Rs2 are source registers, Sh and func are for special function(my circuits don’t use them)
 
