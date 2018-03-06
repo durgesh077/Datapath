@@ -49,12 +49,15 @@ Where Rd is destination register , Rs1,Rs2 are source registers, Sh and func are
 Here, I assumed that the machine code of program is getting stored in the same main memory at address starting from (00000000)h(We assume that program counter is initially at 00000000h). 
 So, first task is how to get machine code for your instructions. To accomplish this, run the Java program then enter the number of instruction you want to execute followed by that number of instructions. The output of program give you the machine code for your instructions. For eg.
 Your want to execute the following instructions -
+
     lda r1,0007(r2)
     lda r2,0007(r3)
     add r3,r1,r2
     sta r3,0000(r3)
+    
 Then machine code generated will be –
-	  a0220007
+
+    a0220007
     a0430007
     00611000
     c0630000
