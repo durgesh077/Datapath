@@ -44,7 +44,7 @@ Where Rd is destination register , Rs1,Rs2 are source registers, Sh and func are
 * Address of each register is of 5 bit starting from 00000 to 11111.
 
 
-## HOW TO SIMULATE THE CIRCUIT ?
+## How To Simulate The Circuit?
 
 Here, I assumed that the machine code of program is getting stored in the same main memory at address starting from (00000000)h(We assume that program counter is initially at 00000000h). 
 So, first task is how to get machine code for your instructions. To accomplish this, run the Java program then enter the number of instruction you want to execute followed by that number of instructions. The output of program give you the machine code for your instructions. For eg.
